@@ -9,7 +9,7 @@ html, body {
 /*Heading Styling*/
 @font-face {
     font-family: 'melinda';
-    src: url("/fonts/Melindascript.ttf");
+    src: url('/fonts/Melindascript.ttf');
   }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 
 @font-face {
     font-family:'Montserrat';
-    src: url(/fonts/Montserrat-ExtraBold.ttf);
+    src: url('/fonts/Montserrat-ExtraBold.ttf');
 }
 
 h2{
