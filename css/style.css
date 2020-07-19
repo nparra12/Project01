@@ -1,0 +1,63 @@
+/*Global*/
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+/*Heading Styling*/
+@font-face {
+    font-family:"melinda";
+    src: url(fonts/Melindascript.tff);
+  }
+
+h1 {
+  font-family: 'melinda';
+  color: #6a8064;
+  font-weight: 500;
+}
+
+@font-face {
+    font-family:'Montserrat';
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+
+h2{
+  font-family: 'Monserrat';
+  color: black;
+  font-style: italic;
+}
+
+/* Carousel Styling */
+.slide1{
+    width: auto;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .slide2{
+    width: auto;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .slide3{
+    width: auto;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+/*Footer*/
+footer {
+    position: fixed;
+    font-size: smaller;
+    width: 100%;
+    background-color: #6a8064;
+    color: white;
+    text-align: center;
+}
