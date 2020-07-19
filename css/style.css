@@ -1,34 +1,15 @@
-/*Global*/
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+body {
     text-align: center;
-    color: black;
 }
-
-/*Heading Styling*/
+/*headings*/
 @font-face {
     font-family: 'melinda';
-    src: url('/fonts/Melindascript.ttf');
-  }
-
-h1 {
-  font-family: 'melinda';
-  color: #6a8064;
-  font-weight: 500;
+    src: url('fonts/Melindascript.ttf') format('truetype');
 }
 
-@font-face {
-    font-family:'Montserrat';
-    src: url('/fonts/Montserrat-ExtraBold.ttf');
+h1{
+    font-family: 'melinda';
 }
-
-h2{
-  font-family: 'Monserrat';
-  color: black;
-  font-style: italic;
-}
-
 /* Carousel Styling */
 .slide1{
     width: auto;
