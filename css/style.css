@@ -3,12 +3,25 @@ body {
 }
 /*headings*/
 @font-face {
-    font-family: 'melinda';
-    src: url('fonts/Melindascript.ttf') format('truetype');
+    font-family: "Better";
+    src: url(/fonts/better_you_smile-webfont.woff);
 }
 
-h1{
-    font-family: 'melinda';
+.page-header {
+    font-family: Better;
+    color: green;
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrart-ExtraBold.ttf);
+}
+
+.page-header2 {
+    font-family: Montserrat;
+    font-style: oblique;
+    font-weight: 80;
 }
 /* Carousel Styling */
 .slide1{
