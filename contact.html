@@ -9,8 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body class="contact">
-
+<body>
+    
     <div class="jumbotron text-center">
         <br>
         <h2>We'd love to hear from you</h2>
@@ -40,10 +40,34 @@
         </div>
         </nav>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-13 col-xs-12">
+                    <div id="theCarousel" class="carousel slide" data ride="carousel">
+                        <!--Indicator-->
+                        <ol class="carousel-indicators">
+                            <li data-target="theCarousel" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <!--Wrapper for slide-->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/contactpic.png" alt="Contact pic">
+                        </div>
+        
+        </div>
+        <hr>
+
 <form class="container-fluid">
     <div class="container-fluid bg-grey">
+        <form action="https://formspree.io/xbjzqjzy" method="POST"></form>
     <h2 class="text-center">Get in touch</h2>
     <div class="row">
+        <div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Somewhere, US</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> flowershop@coffee.com</p>
+          </div>
         <div class="col-sm-7">
         <div class="row">
             <div class="col-sm-6 form-group">
@@ -62,7 +86,9 @@
         </div>
     </div>
     </div>
+    </form>
 </form>
+
 
 <footer class="container-fluid text-center">
     <p>&copy;2020, Flower Shop Coffee &#x273F;.</p>
