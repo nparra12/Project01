@@ -32,10 +32,6 @@ body.index {
     font-style: italic;
 }
 
-
-
-}
-
 /* Navbar styling */
 .navbar {
     margin-bottom: 0;
@@ -48,7 +44,7 @@ body.index {
   
   /* Add a gray color to all navbar links */
   .navbar li a, .navbar .navbar-brand {
-    color: #6a8064 !important;
+    color: #7a9273 !important;
   }
   
   /* On hover, the links will turn white */
