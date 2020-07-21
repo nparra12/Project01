@@ -1,17 +1,19 @@
-body {
+body.index {
     text-align: center;
 }
+
 /*headings*/
 @font-face {
     font-family: "Montserrat";
     src: url(/fonts/Montserrat-Regular.ttf);
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: Montserrat;
     font-size: 100px;
 }
 
+}
 @font-face {
     font-family: "Vollkorn";
     src: url(/fonts/Vollkorn-VariableFont_wght.ttf);
@@ -101,4 +103,13 @@ footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: #f4511e;
+}
+
+/* contact page */
+body.contact {
+    font-family: Montserrat;
+}
+.form-inline {
+    font-family: Montserrat;
+    color: green;
 }
