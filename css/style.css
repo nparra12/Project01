@@ -3,26 +3,77 @@ body {
 }
 /*headings*/
 @font-face {
-    font-family: "Better";
-    src: url(/fonts/better_you_smile-webfont.woff);
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-Regular.ttf);
 }
 
-.page-header {
-    font-family: Better;
-    color: green;
+.navbar-brand{
+    font-family: Montserrat;
     font-size: 100px;
 }
 
+}
 @font-face {
-    font-family: "Montserrat";
-    src: url(/fonts/Montserrart-ExtraBold.ttf);
+    font-family: "Vollkorn";
+    src: url(/fonts/Vollkorn-VariableFont_wght.ttf);
 }
 
-.page-header2 {
-    font-family: Montserrat;
-    font-style: oblique;
-    font-weight: 80;
+
+.text-center h2 {
+    font-family: Vollkorn;
+    font-style: italic;
+    font-weight: 200;
+    color: #435D36;
 }
+
+.text-center h3 {
+    font-family: Vollkorn;
+    font-style: italic;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 0;
+    background-color: #6a8064;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  
+  /* Add a gray color to all navbar links */
+  .navbar li a, .navbar .navbar-brand {
+    color: #6a8064 !important;
+  }
+  
+  /* On hover, the links will turn white */
+  .navbar-nav li a:hover {
+    color: #183d3b !important;
+  }
+  
+  /* The active link */
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #6a8064 !important;
+  }
+  
+  /* Remove border color from the collapsible button */
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  
+  /* Dropdown */
+  .open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+  }
+  
+  /* Dropdown links */
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  
+
 /* Carousel Styling */
 .slide1{
     width: auto;
@@ -47,11 +98,8 @@ body {
   }
 
 /*Footer*/
-footer {
-    position: fixed;
-    font-size: smaller;
-    width: 100%;
-    background-color: #6a8064;
-    color: white;
-    text-align: center;
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
 }
