@@ -32,6 +32,9 @@ body.index {
     font-style: italic;
 }
 
+
+}
+
 /* Navbar styling */
 .navbar {
     margin-bottom: 0;
@@ -99,17 +102,16 @@ body.index {
   }
 
 /*Footer*/
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #f4511e;
+footer{
+    background-color: #9DAE98;
 }
 
 /* contact page */
 body.contact {
     font-family: Montserrat;
 }
-.form-inline {
+.form{
     font-family: Montserrat;
     color: green;
+
 }
