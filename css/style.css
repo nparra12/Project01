@@ -88,7 +88,7 @@ body.index {
     background-position: center;
     background-size: contain;
   }
-  .slide3{
+  .slide3 {
     width: auto;
     height: 360px;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body.index {
   }
 
 /*Footer*/
-footer{
+#footer {
     background-color: #9DAE98;
     position: fixed;
     bottom: 0;
